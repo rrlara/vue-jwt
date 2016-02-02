@@ -5,8 +5,8 @@ module.exports = {
   entry: ['./src/index.js', './src/auth/index.js'],
   // output configuration
   output: {
-    path: '/build',
-    publicPath: '/build/',
+    path: './static',
+    publicPath: '/static/',
     filename: 'build.js'
   },
   // how modules should be transformed
